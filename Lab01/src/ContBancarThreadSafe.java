@@ -1,9 +1,9 @@
-public class ContBancarLazy {
+public class ContBancarThreadSafe {
     private String iban;
     private float sold;
-    private static ContBancarLazy instanta = null;
+    private static ContBancarThreadSafe instanta = null;
 
-    private ContBancarLazy(String iban, float sold) {
+    private ContBancarThreadSafe(String iban, float sold) {
         this.iban = iban;
         this.sold = sold;
     }
@@ -16,9 +16,9 @@ public class ContBancarLazy {
         this.iban = iban;
     }
 
-    public static ContBancarLazy getInstanta() {
+    public static synchronized ContBancarThreadSafe getInstanta() {
         if (instanta == null) {
-            instanta = new ContBancarLazy("RO BRD3746376", 50);
+            instanta = new ContBancarThreadSafe("RO BRDthreadsafe", 50);
         }
         return instanta;
     }
