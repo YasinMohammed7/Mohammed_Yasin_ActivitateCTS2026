@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab01 Singleton/Lab01 Singleton.iml" filepath="$PROJECT_DIR$/Lab01 Singleton/Lab01 Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab02 Builder/Lab02 Builder.iml" filepath="$PROJECT_DIR$/Lab02 Builder/Lab02 Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab03 SimpleFactory/Lab03 SimpleFactory.iml" filepath="$PROJECT_DIR$/Lab03 SimpleFactory/Lab03 SimpleFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab04 FactoryMethod/Lab04 FactoryMethod.iml" filepath="$PROJECT_DIR$/Lab04 FactoryMethod/Lab04 FactoryMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab05 Adapter/Lab05 Adapter.iml" filepath="$PROJECT_DIR$/Lab05 Adapter/Lab05 Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mohammed_Yasin_ActivitateCTS2026.iml" filepath="$PROJECT_DIR$/Mohammed_Yasin_ActivitateCTS2026.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab01/Singleton.iml" filepath="$PROJECT_DIR$/Lab01/Singleton.iml" />
     </modules>
   </component>
 </project>
